@@ -1,5 +1,3 @@
-# typescript-keusvc
-
 [Edit on StackBlitz ⚡️](https://stackblitz.com/edit/typescript-keusvc)
 
 # Observer Design Pattern using typescript
