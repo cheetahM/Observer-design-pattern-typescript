@@ -6,11 +6,11 @@ import { WeatherStation, TemperatureDisplay, Fan } from './observer';
 const appDiv: HTMLElement = document.getElementById('app');
 appDiv.innerHTML = `<h1>Observer Design Pattern using TypeScript</h1>`;
 
-let weatherStation = new WeatherStation();
+const weatherStation = new WeatherStation();
 
-let tempDeisplay = new TemperatureDisplay(weatherStation);
+const tempDeisplay = new TemperatureDisplay(weatherStation);
 
-let fan = new Fan(weatherStation);
+const fan = new Fan(weatherStation);
 
 weatherStation.setTemperature(20);
 weatherStation.setTemperature(30);
