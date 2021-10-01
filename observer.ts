@@ -34,7 +34,7 @@ export class WeatherStation implements Subject {
 }
 
 // observer
-export class TemperatureeDisplay implements Observer {
+export class TemperatureDisplay implements Observer {
   private subject: Subject;
   constructor(weatherStation: Subject) {
     this.subject = weatherStation;
